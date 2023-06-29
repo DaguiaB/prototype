@@ -1,0 +1,136 @@
+body {
+    background-color: #111111;
+}
+
+.navbar {
+    background-color: #000;
+    color: #FFF;
+    border-bottom: 0.1px solid #fff;
+    
+    
+  }
+  
+  .navbar .navbar-brand {
+    color: #FFF;
+  }
+
+  #logo {
+    margin-right: 1px; /* Adicione margem à direita para separar da marca de texto */
+    
+  }
+  
+  .navbar .navbar-nav .nav-link {
+    color: #fff;
+  }
+
+  .navbar-toggler {
+    border-color: #FFF;
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cline stroke='%23FFF' x1='4' x2='26' y1='6' y2='6'/%3E%3Cline stroke='%23FFF' x1='4' x2='26' y1='14' y2='14'/%3E%3Cline stroke='%23FFF' x1='4' x2='26' y1='22' y2='22'/%3E%3C/svg%3E");
+    ;
+  }
+  
+  .navbar-brand.align-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+  }
+
+  .navbar-scroll {
+    background-color: rgba(0, 0, 0, 0.9); /* Exemplo de transparência 90% */
+  }
+  
+  
+  .offcanvas {
+    background-color: #000;
+    color: #fff;
+  }
+
+  .offcanvas-scroll {
+    background-color: rgba(0, 0, 0, 0.9); /* Exemplo de transparência 90% */
+  }
+
+  /* Tentando Arrumar o carrossel */
+  .carousel-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+
+/* Alterar a cor das letras do rodapé */
+footer {
+    background-color: #000;
+    color: #ffffff; /* Cor das letras do rodapé */
+    border-top: 0.1px solid #fff;
+  }
+  
+  /* Alterar a cor de fundo dos botões do rodapé */
+  footer .btn-primary {
+    background-color: #111; /* Cor de fundo dos botões do rodapé */
+    color: #ffffff; /* Cor das letras dos botões do rodapé */
+  }
+  
+  .white-outline {
+    color: white;
+  }
+  
+  .button-container {
+    display: flex;
+    max-width: 50%;
+    margin: 0 auto;
+  }
+  
+  .custom-button {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-right: 20px;
+    flex: 1;
+    transition: background-color 0.1s ease;
+}
+
+/* Estilos quando o botão for clicado */
+.custom-button:active {
+  background-color: #333;
+  color: white;
+
+  }
+  
+  @media (max-width: 768px) {
+    .button-container {
+      flex-direction: column;
+      align-items: center;
+      max-width: 80%;
+    }
+    
+    .custom-button {
+      margin: 5px 0;
+    }
+  }
+  
+  .card {
+    background-color: #111; /* Defina a cor de fundo desejada */
+    transition: background-color 0.1s ease;
+}
+
+/* Estilos quando o card for clicado */
+.card:active {
+  background-color: #333;
+  color: #333;
+  }
+  
+  .card:active .card-img-top {
+    filter: grayscale(10%) brightness(70%);
+  }
+  
+  .card-body {
+    color: #fff; /* Defina a cor do texto desejada */
+    
+  }
+  
+  
